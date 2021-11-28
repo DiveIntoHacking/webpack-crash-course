@@ -38,10 +38,6 @@ module.exports = {
           limit: 2048,
           name: './images/[name].[ext]'
         }
-      },
-      {
-        test: /\.html$/,
-        loader: 'html-loader'
       }
     ]
   },
